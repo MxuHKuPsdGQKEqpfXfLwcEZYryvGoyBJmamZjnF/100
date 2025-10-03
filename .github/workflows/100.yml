@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        instance: ${{ fromJSON(range(1, 1001)) }}
+        instance: ${{ fromJSON(range(1, 901)) }}
     steps:
       - uses: actions/checkout@v3
 
